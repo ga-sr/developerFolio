@@ -1,17 +1,18 @@
-import React, {useContext} from "react";
-import {Fade} from "react-reveal";
+import React, { useContext } from "react";
+import { Fade } from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.css";
 import landingPerson from "../../assets/lottie/landingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
+import manOnTable from '../../assets/images/manOnTable.svg';
 
-import {illustration, greeting} from "../../portfolio";
+import { illustration, greeting } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Greeting() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   if (!greeting.displayGreeting) {
     return null;
   }
@@ -35,7 +36,19 @@ export default function Greeting() {
                     : "greeting-text-p subTitle"
                 }
               >
-                {greeting.subTitle}
+                {greeting.subTitle.map((subTitle, i) => {
+                  return (
+                    <p
+                      key={i}
+                      className={isDark
+                        ? "dark-mode subTitle skills-text"
+                        : "subTitle skills-text"
+                      }
+                    >
+                      {subTitle}
+                    </p>
+                  )
+                })}
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
@@ -52,11 +65,11 @@ export default function Greeting() {
             {illustration.animated ? (
               <DisplayLottie animationData={landingPerson} />
             ) : (
-              <img
-                alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
-              ></img>
-            )}
+                <img
+                  alt="man sitting on table"
+                  src={manOnTable}
+                ></img>
+              )}
           </div>
         </div>
       </div>
