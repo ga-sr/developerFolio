@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/developerFolio/static/css/main.001b9ac4.chunk.css",
+    "main.js": "/developerFolio/static/js/main.a250ad07.chunk.js",
+    "main.js.map": "/developerFolio/static/js/main.a250ad07.chunk.js.map",
+    "runtime-main.js": "/developerFolio/static/js/runtime-main.782fec62.js",
+    "runtime-main.js.map": "/developerFolio/static/js/runtime-main.782fec62.js.map",
+    "static/js/2.05996cd5.chunk.js": "/developerFolio/static/js/2.05996cd5.chunk.js",
+    "static/js/2.05996cd5.chunk.js.map": "/developerFolio/static/js/2.05996cd5.chunk.js.map",
+    "static/css/3.13d9c9f5.chunk.css": "/developerFolio/static/css/3.13d9c9f5.chunk.css",
+    "static/js/3.34b8445e.chunk.js": "/developerFolio/static/js/3.34b8445e.chunk.js",
+    "static/js/3.34b8445e.chunk.js.map": "/developerFolio/static/js/3.34b8445e.chunk.js.map",
+    "static/css/4.ee65cb7d.chunk.css": "/developerFolio/static/css/4.ee65cb7d.chunk.css",
+    "static/js/4.46e57b74.chunk.js": "/developerFolio/static/js/4.46e57b74.chunk.js",
+    "static/js/4.46e57b74.chunk.js.map": "/developerFolio/static/js/4.46e57b74.chunk.js.map",
+    "index.html": "/developerFolio/index.html",
+    "static/css/3.13d9c9f5.chunk.css.map": "/developerFolio/static/css/3.13d9c9f5.chunk.css.map",
+    "static/css/4.ee65cb7d.chunk.css.map": "/developerFolio/static/css/4.ee65cb7d.chunk.css.map",
+    "static/css/main.001b9ac4.chunk.css.map": "/developerFolio/static/css/main.001b9ac4.chunk.css.map",
+    "static/js/2.05996cd5.chunk.js.LICENSE.txt": "/developerFolio/static/js/2.05996cd5.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/developerFolio/static/media/Montserrat-Regular.3cd78665.ttf",
+    "static/media/codeInLogo.webp": "/developerFolio/static/media/codeInLogo.e41a71d5.webp",
+    "static/media/contactMailDark.svg": "/developerFolio/static/media/contactMailDark.1db650d3.svg",
+    "static/media/developerActivity.2c0445ca.svg": "/developerFolio/static/media/developerActivity.2c0445ca.svg",
+    "static/media/manOnTable.8f117eb2.svg": "/developerFolio/static/media/manOnTable.8f117eb2.svg",
+    "static/media/saayaHealthLogo.webp": "/developerFolio/static/media/saayaHealthLogo.60b27d1f.webp",
+    "static/media/skill.svg": "/developerFolio/static/media/skill.35a14766.svg",
+    "static/media/TalkCard.css": "/developerFolio/static/media/talksCardBack.73ed1545.svg",
+    "static/media/unesp.png": "/developerFolio/static/media/unesp.25f77b5d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.782fec62.js",
+    "static/js/2.05996cd5.chunk.js",
+    "static/css/main.001b9ac4.chunk.css",
+    "static/js/main.a250ad07.chunk.js"
+  ]
+}
